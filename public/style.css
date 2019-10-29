@@ -21,3 +21,15 @@ footer {
   display: block;
   vertical-align: bottom;
 }
+
+.cart {
+  display: block;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.product-review {
+  display: block;
+  padding: 5px;
+  border: 1px solid black;
+}

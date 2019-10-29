@@ -16,7 +16,13 @@
     </nav>
   </header>
   <section id="app">
-    <product :premium="premium"></product>
+    <div class="cart">Cart({{ cart.length }})</div>
+    <product :premium="premium" 
+              @add-to-cart="updateCart"
+              @remove-from-cart="updateCart"></product>
+  </section>
+  <section>
+  <iframe width="100%" height="394" src="http://musescore.com/node/439/embed" frameborder="0"></iframe><span><a    href="http://musescore.com/nicolas/scores/439">Héléna</a> by <a href="http://musescore.com/user/5">Nicolas</a></span>
   </section>
   <footer>
     <ul>
