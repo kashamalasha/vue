@@ -7,4 +7,7 @@ deploy:
   provider: firebase
   token: $FIREBASE_TOKEN
 
+script:
+  - echo "End"
+
 
