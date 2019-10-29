@@ -1,0 +1,23 @@
+header {
+  display:block;
+  vertical-align: top;
+}
+
+header>nav>ul>li {
+  display: inline;
+  list-style: none;
+  border: 1px black solid;
+  padding: 5px;
+}
+
+footer>ul>li {
+  display: inline;
+  list-style: none;
+  border: 1px black solid;
+  padding: 5px;
+}
+
+footer {
+  display: block;
+  vertical-align: bottom;
+}
